@@ -1,6 +1,9 @@
-title: Lukas Hunold Data Science Portfolio
-logo: /assets/img/logo.png
-description: Showcasing my skills and projects in Data Science.
+title: Lukas Hunold - Data Science Portfolio 
+description: My journey began with teaching mathematics and physics, which laid the foundation for my deep understanding of complex problem-solving techniques. I went on to earn a Master's degree in Physics with a focus on nano-optics, which equipped me with the analytical skills and scientific knowledge required to tackle challenging data problems. <br><br>Expertise in machine learning has allowed me to work on cutting-edge projects such as transformer models for intelligent document parsing. Proficiency in PyTorch and GCP has enabled me to build and train models at scale. Additionally, knowledge of MLOps helped me streamline the machine learning lifecycle. <br><br>My diverse skill set allows me to approach problems from a unique perspective, and my experience in education and physics has taught me how to approach problems systematically and critically. I am committed to continuous learning and staying up-to-date with the latest developments in data science.
+logo: /assets/images/logo.jpg
 show_downloads: False
 google_analytics:
 theme: jekyll-theme-minimal
+sass:
+  sass_dir: _sass
+  style: compressed

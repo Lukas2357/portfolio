@@ -1,0 +1,25 @@
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header img {
+  max-width: 150px;
+  max-height: 150px;
+  margin-left: 1rem;
+}
+
+.project {
+  display: inline-block;
+  vertical-align: top;
+  width: calc(20% - 1rem);
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+  box-sizing: border-box;
+}

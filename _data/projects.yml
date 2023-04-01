@@ -1,0 +1,20 @@
+- title: JobSearch
+  description: This is a project to look for Data Science Jobs and analyse the job market at the current time. It uses webcrawling to srap standard pages for job offers and saves contents to local databases which can be analysed to check how many jobs are offered, where they are located, how many people roughly apply and which skills are required.
+  image: jobsearch.png
+  url: https://github.com/Lukas2357/jobsearch
+  external_url: https://github.com/Lukas2357/jobsearch
+- title: RNALoops
+  description: This project was part of studies of Data Science at JLU. It analyses a publically available database called RNALoops containing special RNA sequences forming so called Multiloops. It identifies characteristics, check the database for integrity and uses clustering methods as well as classification to group structures together.
+  image: rnaloops.png
+  url: https://github.com/Lukas2357/rnaloops
+  external_url: https://github.com/Lukas2357/rnaloops
+- title: ProSRL
+  description: This project was conducted with the didactics department of physics at JLU and was designed to analyse the behaviour of students on a digital learning platform. User click logs were studied and patterns observed. In addition, the behaviour was connected to personal characteristics of the students.
+  image: prosrl.png
+  url: https://github.com/Lukas2357/prosrl
+  external_url: https://github.com/Lukas2357/prosrl
+- title: OpticsLab
+  description: In this project done during my time in Nano-Optics group of University Siegen, we collected a number of software for analysing optical measurements. Most of it were short, self written scripts to accomplish certain tasks and do data analysis for all sorts of measurements from the lab as well as simulations.
+  image: opticslab.png
+  url: https://github.com/Lukas2357/opticslab
+  external_url: https://github.com/Lukas2357/opticslab
