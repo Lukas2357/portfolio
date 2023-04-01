@@ -1,6 +1,6 @@
 title: My Data Science Portfolio
 logo: /assets/img/logo.png
-description: About some projects of mine.
-show_downloads: true
+description: Showcasing my skills and projects in Data Science.
+show_downloads: False
 google_analytics:
 theme: jekyll-theme-minimal
