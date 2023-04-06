@@ -15,6 +15,7 @@ title: "RNALoops"
         <li>Techniques: Web scrapping, 3D structure analysis, Plotting, Feature engineering, clustering, regression... </li>
       </ul>
       <h3>Components</h3>
+      <ul>
       	<li>Crawler for the webpage to retrieve database pdfs</li>
       	<li>Parser for pdf documents of RNA structures</li>
       	<li>Module to verify integrity of data (check structures)</li>
@@ -22,6 +23,7 @@ title: "RNALoops"
       	<li>Clustering of similar structures according to angles</li>
       	<li>Overview plots for clusters with many details</li>
       	<li>Prediction of structure angles using neural network</li>
+      </ul>
       <h3>Links</h3>
       	<p><a href="https://github.com/Lukas2357/RNALoops" target="_blank">GitHub Repository</a></p>
       </div>

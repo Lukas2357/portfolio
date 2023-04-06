@@ -15,12 +15,14 @@ title: "ProSRL"
         <li>Techniques: Web scrapping, Time series analysis, Plotting, Feature engineering, clustering, classification... </li>
       </ul>
       <h3>Components</h3>
+      <ul>
       	<li>Crawler for the webpage to retrieve structure and metadata</li>
       	<li>Data preparation to make user logs ready for analysis</li>
       	<li>Feature engineering to extract user characteristics</li>
       	<li>Clustering module to identify user categories</li>
       	<li>Regression module to study learning success</li>
       	<li>Plotting modules to visualize user timeseries</li>
+      </ul>
       <h3>Links</h3>
       	<p><a href="https://github.com/Lukas2357/ProSRL" target="_blank">GitHub Repository</a></p>
       </div>

@@ -15,10 +15,12 @@ title: "slurm"
         <li>Techniques: EDA, data preprocessing pipelines, clustering, classification, random forest, xgboost, lightgbm, ... </li>
       </ul>
       <h3>Components</h3>
+      <ul>
       	<li>Notebook for data preparation in pipeline</li>
       	<li>Notebook for interactive EDA using ipywidgets</li>
       	<li>Notebook for clustering of users and accounts</li>
       	<li>Notebook to predict failing jobs using pycaret</li>
+      </ul>
       <h3>Links</h3>
       	<p><a href="https://gitlab.ub.uni-giessen.de/so7019/slurm" target="_blank">GitLab Repository (private)</a></p>
       </div>

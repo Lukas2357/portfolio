@@ -15,6 +15,7 @@ title: "JobSearch"
         <li>Techniques: Web scrapping, Database engineering, html parsing, Google Maps API, TF-IDF analysis... </li>
       </ul>
       <h3>Components</h3>
+      <ul>
       	<li>Crawler for the webpages to retrieve possible jobs</li>
       	<li>Functions to save the html and retrieve text</li>
       	<li>Multiprocessing to speed up retrieval</li>
@@ -22,6 +23,7 @@ title: "JobSearch"
       	<li>Analysis notebooks for the resulting data</li>
       	<li>Connector to Google maps API to calculate distances</li>
       	<li>Models to extract relevant information from texts</li>
+      </ul>
       <h3>Links</h3>
       	<p><a href="https://github.com/Lukas2357/JobSearch" target="_blank">GitHub Repository (private)</a></p>
       </div>

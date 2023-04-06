@@ -14,6 +14,7 @@ title: "OpticsLab"
         <li>Techniques: Fitting, Time series analysis, Autocorrelation analysis, Fourier transform, numeric simulation, ... </li>
       </ul>
       <h3>Components</h3>
+      <ul>
       	<li>Plot and fit of axial/lateral confocal intensity scans</li>
       	<li>Calculate dipole collection efficiency in the far field</li>
       	<li>Analysis of saturation measurements on single emitters</li>
@@ -23,6 +24,7 @@ title: "OpticsLab"
       	<li>Simulation of emitter antibunching in continuous/pulsed mode</li>
       	<li>Lifetime plot and fitting for SiV color centers </li>
       	<li>Spectral fit program for SiV color centers or other emitters</li>
+      </ul>
       <h3>Links</h3>
       	<p><a href="https://github.com/Lukas2357/opticslab" target="_blank">GitHub Repository</a></p>
       </div>
