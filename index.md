@@ -16,7 +16,6 @@ Below you will find a list of my data science projects. Click on the project ima
     </a>
     <h2>{{ project.title }}</h2>
     <p>{{ project.description }}</p>
-    <p><a href="{{ project.external_url }}" target="_blank">View on GitHub</a></p>
   </div>
 {% endfor %}
 </div>
