@@ -1,29 +1,23 @@
 ---
 layout: project
-title: "RNALoops"
+title: "DokMan"
 ---
 
 <div class="container">
   <div class="content-section">
     <div class="content-text">
       <h3>Objective</h3>
-      Analyse the RNALoops database to verify data integrity and identify possible clusters of RNA multiloop structures that can be further studied with folding algorithms.
+      Use modern AI models to automatically analyse documents and extract relevant information.
       <h3>Technologies</h3>
       <ul class="technologies">
-        <li>Programming languages: Python, (My)SQL, c++ </li>
-        <li>Libraries: Pandas, scikit-learn, matplotlib, textract, selenium, tensorflow, keras </li>
-        <li>Techniques: Web scrapping, 3D structure analysis, Plotting, Feature engineering, clustering, regression... </li>
+        <li>Programming languages: Python</li>
+        <li>Libraries: Pandas, PyTorch, lightning, transformers, mlflow, tensorboard, google-cloud-sdk </li>
+        <li>Techniques: Cloud training, transformer finetuning, pipelines, image processing, data augmentation, NLP, ... </li>
       </ul>
       <h3>Components</h3>
-      	<li>Crawler for the webpage to retrieve database pdfs</li>
-      	<li>Parser for pdf documents of RNA structures</li>
-      	<li>Module to verify integrity of data (check structures)</li>
-      	<li>Comparison with other databases</li>
-      	<li>Clustering of similar structures according to angles</li>
-      	<li>Overview plots for clusters with many details</li>
-      	<li>Prediction of structure angles using neural network</li>
+      	<li>undisclosed</li>
       <h3>Links</h3>
-      	<p><a href="https://github.com/Lukas2357/RNALoops" target="_blank">GitHub Repository</a></p>
+      	<p><a href="" target="_blank">Azure DevOps Repository (undisclosed)</a></p>
       </div>
     <div class="content-images">
     	<div class="image-gallery" style="position: relative; width: 80%; margin: 0 auto;">

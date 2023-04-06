@@ -1,29 +1,26 @@
 ---
 layout: project
-title: "RNALoops"
+title: "slurm"
 ---
 
 <div class="container">
   <div class="content-section">
     <div class="content-text">
       <h3>Objective</h3>
-      Analyse the RNALoops database to verify data integrity and identify possible clusters of RNA multiloop structures that can be further studied with folding algorithms.
+      Analyse the slurm data of JLU high performance computing cluster from the last 2,5 years by explorative data analysis and machine learning to get insights into user behaviour.
       <h3>Technologies</h3>
       <ul class="technologies">
-        <li>Programming languages: Python, (My)SQL, c++ </li>
-        <li>Libraries: Pandas, scikit-learn, matplotlib, textract, selenium, tensorflow, keras </li>
-        <li>Techniques: Web scrapping, 3D structure analysis, Plotting, Feature engineering, clustering, regression... </li>
+        <li>Programming languages: Python</li>
+        <li>Libraries: Pandas, scikit-learn, plotly, dash, pycaret, seaborn, ipywidgets </li>
+        <li>Techniques: EDA, data preprocessing pipelines, clustering, classification, random forest, xgboost, lightgbm, ... </li>
       </ul>
       <h3>Components</h3>
-      	<li>Crawler for the webpage to retrieve database pdfs</li>
-      	<li>Parser for pdf documents of RNA structures</li>
-      	<li>Module to verify integrity of data (check structures)</li>
-      	<li>Comparison with other databases</li>
-      	<li>Clustering of similar structures according to angles</li>
-      	<li>Overview plots for clusters with many details</li>
-      	<li>Prediction of structure angles using neural network</li>
+      	<li>Notebook for data preparation in pipeline</li>
+      	<li>Notebook for interactive EDA using ipywidgets</li>
+      	<li>Notebook for clustering of users and accounts</li>
+      	<li>Notebook to predict failing jobs using pycaret</li>
       <h3>Links</h3>
-      	<p><a href="https://github.com/Lukas2357/RNALoops" target="_blank">GitHub Repository</a></p>
+      	<p><a href="https://gitlab.ub.uni-giessen.de/so7019/slurm" target="_blank">GitLab Repository (private)</a></p>
       </div>
     <div class="content-images">
     	<div class="image-gallery" style="position: relative; width: 80%; margin: 0 auto;">

@@ -1,3 +1,14 @@
+{% for project in site.data.projects %}
+  {% if project.title == page.title %}
+    {% assign current_project = project %}
+    {% assign previous_index = forloop.index0 | minus: 1 %}
+    {% assign next_index = forloop.index0 | plus: 1 %}
+    {% assign previous_project = site.data.projects[previous_index] %}
+    {% assign next_project = site.data.projects[next_index] %}
+  {% endif %}
+{% endfor %}
+
+
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: "en-US" }}">
   <head>
@@ -6,7 +17,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
 {% seo %}
-    <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
+    <link rel="stylesheet" href="{{ "/assets/css/style_projects.css?v=" | append: site.github.build_revision | relative_url }}">
     <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
     <![endif]-->
@@ -15,11 +26,34 @@
   <body>
     <div class="wrapper">
       <section>
+      <div class="container-head">
+        <h2>{{ page.title }}</h2>
+        <p class="project-description">{{ current_project.description }}</p>
+      </div>
 
       {{ content }}
 
       </section>
     </div>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
+
+
+  <div class="container-tail">
+
+  <!-- Horizontal line -->
+  <div class="horizontal-line"></div>
+
+  <!-- Button container -->
+  <div class="button-container">
+    {% if previous_project %}
+      <a href="{{ site.baseurl }}/projects/{{ previous_project.title | slugify }}" class="button">Previous Project</a>
+    {% endif %}
+    <a href="{{ site.baseurl }}/" class="button">Main Page</a>
+    {% if next_project %}
+      <a href="{{ site.baseurl }}/projects/{{ next_project.title | slugify }}" class="button">Next Project</a>
+    {% endif %}
+  </div>
+</div>
   </body>
+
 </html>
